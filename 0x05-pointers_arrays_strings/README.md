@@ -1,5 +1,9 @@
-# # alx software engineering 
-# # Pointers and Arrays Strings
+# alx software engineering 
+## AIT HADDOU MARWAN
+[linkedin](https://www.linkedin.com/in/marwan-ait-haddou-85b796120/)
+
+[instagram](https://www.instagram.com/mait.had/)
+# Pointers and Arrays Strings
 # Resources
 [C - Arrays](https://www.tutorialspoint.com/cprogramming/c_arrays.htm)
 
@@ -9,8 +13,8 @@
 
 [Memory Layout](https://aticleworld.com/memory-layout-of-c-program/)
 
-## Tasks
-# 0. 98 Battery st : 1-swap.c
+# Tasks
+## 0. 98 Battery st : 1-swap.c
 Write a function that takes a pointer to an int as parameter and updates the value it points to to 98.
 
 Prototype: ```void reset_to_98(int *n);```
@@ -41,7 +45,7 @@ n=402
 n=98
 julien@ubuntu:~/0x05$
 ```
-# 1. Don't swap horses in crossing a stream : 1-swap.c
+## 1. Don't swap horses in crossing a stream : 1-swap.c
 Write a function that swaps the values of two integers.
 
 Prototype: ```void swap_int(int *a, int *b);```
@@ -74,7 +78,7 @@ a=98, b=42
 a=42, b=98
 julien@ubuntu:~/0x05$
 ```
-# 2. This report, by its very length, defends itself against the risk of being read : 2-strlen.c
+## 2. This report, by its very length, defends itself against the risk of being read : 2-strlen.c
 Write a function that returns the length of a string.
 
 Prototype: ```int _strlen(char *s);```
@@ -107,7 +111,7 @@ julien@ubuntu:~/0x05$ ./2-strlen
 julien@ubuntu:~/0x05$ 
 
 ```
-# 3. I do not fear computers. I fear the lack of them : 3-puts.c
+## 3. I do not fear computers. I fear the lack of them : 3-puts.c
 
 Write a function that prints a string, followed by a new line, to stdout.
 
@@ -139,7 +143,7 @@ julien@ubuntu:~/0x05$
 
 ```
 
-# 4. I can only go one way. I've not got a reverse gear : 4-print_rev.c
+## 4. I can only go one way. I've not got a reverse gear : 4-print_rev.c
 
 Write a function that prints a string, in reverse, followed by a new line.
 
@@ -168,7 +172,7 @@ vomisA caasI - meht fo kcal eht raef I .sretupmoc raef ton od I
 julien@ubuntu:~/0x05$
 
 ```
-# 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes : 5-rev_string.c
+## 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes : 5-rev_string.c
 
 Write a function that reverses a string.
 
@@ -200,7 +204,7 @@ loohcS yM
 julien@ubuntu:~/0x05$ 
 
 ```
-# 6. Half the lies they tell about me aren't true : 6-puts2.c
+## 6. Half the lies they tell about me aren't true : 6-puts2.c
 
 Write a function that prints every other character of a string, starting with the first character, followed by a new line.
 
@@ -229,7 +233,7 @@ julien@ubuntu:~/0x05$ ./6-puts2
 julien@ubuntu:~/0x05$ 
 
 ```
-# 7. Winning is only half of it. Having fun is the other half : 7-puts_half.c
+## 7. Winning is only half of it. Having fun is the other half : 7-puts_half.c
 
 Write a function that prints half of a string, followed by a new line.
 
@@ -263,7 +267,7 @@ julien@ubuntu:~/0x05$
 
 ```
 
-# 8. Arrays are not pointers
+## 8. Arrays are not pointers
 
 Write a function that prints ```n``` elements of an array of integers, followed by a new line.
 
@@ -305,7 +309,7 @@ julien@ubuntu:~/0x05$
 
 ```
 
-# 9. strcpy : 9-strcpy.c
+## 9. strcpy : 9-strcpy.c
 
 Prototype: ```char *_strcpy(char *dest, char *src)```;
 Write a function that copies the string pointed to by ```src```, including the terminating null byte (```\0```), to the buffer pointed to by ```dest```.
@@ -342,5 +346,6 @@ First, solve the problem. Then, write the code
 julien@ubuntu:~/0x05$ 
 
 ```
+
 
 
