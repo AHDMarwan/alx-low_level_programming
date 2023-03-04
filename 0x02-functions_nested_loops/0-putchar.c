@@ -1,14 +1,19 @@
 #include "main.h"
-char _putchar(void)
+
+/**
+ * main - Entry point
+ * Return:0
+ */
+
+int main(void)
 {
-	char *var = "_putchar";
-
-	while (*var)
-	{
-		_putchar(*var);
-		var++;
-	}
-	_putchar('\n');
-
-	return (0);
+char c[9] = "_putchar";
+int i = 0;
+while (i < 8)
+{
+_putchar(c[i]);
+i++;
+}
+_putchar('\n');
+return (0);
 }
