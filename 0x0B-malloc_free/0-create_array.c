@@ -8,28 +8,35 @@ Next, the function initializes each element of the array with the given char c u
 Note that the caller is responsible for freeing the memory allocated by create_array when it is no longer needed, using the free function
  */
 
-char *create_array(unsigned int size, char c) {
-    // Return NULL if size is 0
-    if (size == 0) {
-        return NULL;
-    }
+char *create_array(unsigned int size, char c)
+{
+	char *buffer;
+	unsigned int position;
 
-    // Allocate memory for the array
-    char *arr = malloc(size * sizeof(char));
-    if (arr == NULL) {
-        return NULL; // Allocation failed
-    }
+	if (size == 0)
+	{
+		return (NULL);
+	}
 
-    // Initialize the array with the given char
-    for (unsigned int i = 0; i < size; i++) {
-        arr[i] = c;
-    }
+	/*Define values with malloc*/
+	buffer = (char *) malloc(size * sizeof(c));
 
-    // Return a pointer to the array
-    return arr;
+	if (buffer == 0)
+	{
+		return (NULL);
+	}
+
+	else
+	{
+		position = 0;
+		while (position < size) /*While for array*/
+		{
+			*(buffer + position) = c;
+			position++;
+		}
+
+		return (buffer);
+	}
+
 }
-
-
-
-
 

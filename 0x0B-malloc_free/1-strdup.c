@@ -1,25 +1,33 @@
 #include <stdlib.h>
 
 /**
-
+ * _strdup - copy
+ * @str: pointer to string
+ * Return: pointer
  */
 
-char *_strdup(char *str) {
-    // Return NULL if str is NULL
-    if (str == NULL) {
-        return NULL;
-    }
+char *_strdup(char *str)
+{
+	char *s;
+	int i = 0, j;
 
-    // Allocate memory for the new string
-    char *new_str = malloc(strlen(str) + 1);
-    if (new_str == NULL) {
-        return NULL; // Allocation failed
-    }
+	if (!str)
+		return (NULL);
 
-    // Copy the contents of the input string to the new string
-    strcpy(new_str, str);
+	while (*(str + i))
+		i++;
+	i++;
+	s = malloc(sizeof(char) * i);
 
-    // Return a pointer to the new string
-    return new_str;
+	if (s == NULL)
+	{
+		return (NULL);
+	}
+
+	for (j = 0; j <= i; j++)
+	{
+		s[j] = str[j];
+	}
+	return (s);
 }
 
